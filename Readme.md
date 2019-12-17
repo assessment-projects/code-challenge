@@ -22,6 +22,7 @@ A device has following attributes
 | model     | String | cannot be null, cannot be empty                                      |
 | os        | String | cannot be null, cannot be empty, and it can be either **Android** or **ios** |
 | osVersion | String | cannot be null, cannot be empty                                      |
+
 And we cannot have multiple entries with same **brand**, **model** and **osVersion**
 
 ### Logical Requirements
